@@ -11,10 +11,10 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from orms import DrugsTable
-from orms import DrugModel
-from orms import DrugsModel
-from orms import InputModel
+from .orms import DrugsTable
+from .orms import DrugModel
+from .orms import DrugsModel
+from .orms import InputModel
 
 
 DB_CONNECTION_STRING = (
