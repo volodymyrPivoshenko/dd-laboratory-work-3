@@ -10,7 +10,6 @@ from sqlalchemy import Numeric
 from pydantic import BaseModel
 from typing import List
 
-
 class DrugsTable(declarative_base()):
     """
     ORM for SQLAlchemy.
